@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripción del Proyecto</title>
+    <style>
+        :root { --azul-profundo: #0f172a; --azul-marino: #1e3a8a; --azul-medio: #3b82f6; --azul-claro: #dbeafe; --azul-hielo: #eff6ff; --blanco: #ffffff; }
+        body { font-family: 'Segoe UI', sans-serif; background-color: var(--azul-hielo); color: var(--azul-profundo); margin: 0; line-height: 1.6; }
+        nav { background-color: var(--azul-marino); padding: 15px 0; text-align: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: var(--blanco); text-decoration: none; margin: 0 15px; font-weight: 600; }
+        nav a:hover { color: var(--azul-claro); }
+        .container { max-width: 900px; margin: 40px auto; padding: 40px; background-color: var(--blanco); border-radius: 12px; border-top: 6px solid var(--azul-medio); box-shadow: 0 10px 15px rgba(0,0,0,0.05); }
+        h1 { color: var(--azul-marino); text-align: center; margin-bottom: 30px; }
+        p { text-align: justify; margin-bottom: 15px; }
+        
+        /* Estilo para resaltar los subtítulos (Problemática, Objetivo, Solución) */
+        .etiqueta { color: var(--azul-medio); font-size: 1.2rem; display: block; margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Index.html">Inicio</a>
+        <a href="Diseño y elaboracion.html">Diseño</a>
+        <a href="Que es cuantrix.html">¿Qué es Cuantrix?</a>
+        <a href="Resultados y experiencias.html">Resultados</a>
+        <a href="Evidencias.html">Evidencias</a>
+    </nav>
+
+    <div class="container">
+        <h1>Descripción del Proyecto</h1>
+        
+        <span class="etiqueta">Problemática:</span>
+        <p>La facultad de arquitectura de la UADY, el arquitecto Hector Cabañas y la empresa Camsac nos pidió llevar a cabo un proyecto en donde, en un caso hipotético, se quisiera abrir un centro comercial, se tendría que revisar el tráfico vehicular para analizar si le conviene a la empresa colocar el centro comercial en dicho lugar.</p>
+        
+        <span class="etiqueta">Objetivo:</span>
+        <p>Para resolver el problema planteado, crearemos un modelo automatizado de un contador de automóviles para analizar y llevar un control de dichos vehículos con el número total y la velocidad con la que transitan la zona asignada, además que los trabajos que suelen hacerse sobre este tema, comúnmente son tediosos de realizarse por los posibles errores al momento de contar, lo costoso que suele ser o simplemente por lo tardado que es.</p>
+        
+        <span class="etiqueta">Solución:</span>
+        <p>La solución que proponemos es construir un contador de automóviles usando Arduino UNO. Este dispositivo va a detectar cuántos autos pasan y a qué velocidad lo hacen. Con esos datos, podremos analizar si esa zona es buena o no para poner un centro comercial. También podremos ver si el tráfico afectaría a las personas que viven cerca o a otros negocios. Como es un prototipo, usaremos materiales fáciles de conseguir y accesibles. Así demostramos que se puede hacer un análisis útil sin gastar mucho dinero.</p>
+    </div>
+
+</body>
+</html>

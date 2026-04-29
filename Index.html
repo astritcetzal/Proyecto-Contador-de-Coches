@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Cuantrix - Contador de Coches</title>
+    <style>
+        /* VARIABLES CSS: Cambias el color aquí y se actualiza en todo el archivo */
+        :root {
+            --azul-profundo: #0f172a; 
+            --azul-marino: #1e3a8a; 
+            --azul-medio: #3b82f6; 
+            --azul-claro: #dbeafe; 
+            --azul-hielo: #eff6ff; 
+            --blanco: #ffffff;
+        }
+
+        /* DISEÑO GENERAL DEL CUERPO */
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--azul-hielo);
+            color: var(--azul-profundo);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* BARRA DE NAVEGACIÓN SUPERIOR */
+        nav {
+            background-color: var(--azul-marino);
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: sticky; /* Hace que el menú baje contigo al hacer scroll */
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: var(--blanco);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: var(--azul-claro);
+        }
+
+        /* CAJA BLANCA CENTRAL DONDE VA EL CONTENIDO */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: var(--blanco);
+            border-radius: 12px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+            border-top: 6px solid var(--azul-medio);
+        }
+
+        /* TÍTULOS Y PÁRRAFOS */
+        h1, h2, h3 {
+            color: var(--azul-marino);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p { text-align: justify; margin-bottom: 15px; font-size: 1.05rem; }
+
+        /* CONTENEDOR PARA ACOMODAR LAS IMÁGENES */
+        .img-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap; /* Permite que las imágenes bajen si no caben en la pantalla */
+            margin: 30px 0;
+        }
+        .img-container img {
+            max-width: 100%;
+            border-radius: 8px; /* Redondea los bordes de la foto */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* SECCIÓN DEL EQUIPO DE TRABAJO */
+        .team-section {
+            background-color: var(--azul-claro);
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        .team-list {
+            list-style: none; /* Quita los puntos de la lista */
+            padding: 0;
+            text-align: center;
+            font-weight: 600;
+            color: var(--azul-marino);
+        }
+        .team-list li { margin: 8px 0; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        
+        <a href="Descripcion del proyecto.html">Descripción</a>
+        <a href="Diseño y elaboracion.html">Diseño</a>
+        <a href="Que es cuantrix.html">¿Qué es Cuantrix?</a>
+        <a href="Resultados y experiencias.html">Resultados</a>
+        <a href="Evidencias.html">Evidencias</a>
+    </nav>
+
+    <div class="container">
+        <h1>Proyecto: Contador de Coches para Estudio Vial</h1>
+        
+        <p><strong>¡Bienvenidos a nuestra página!</strong> Somos estudiantes del COBAY plantel Chenku de la capacitación en Tecnologías de la Información y Comunicación, formando parte de la fundación Cuantrix.</p>
+        <p>Aquí van a encontrar información de nuestro proyecto, un contador de coches.</p>
+
+        <div class="img-container">
+            <img src="images/cobay.jpg" alt="Logo COBAY" width="250">
+            <img src="images/cuantrix.jpg" alt="Logo Cuantrix" width="350">
+        </div>
+        <div class="img-container">
+            <img src="images/logo_proy.jpg" alt="Logo del Proyecto" width="250">
+        </div>
+
+        <h3 style="color: var(--azul-medio); margin-top: 40px;">Mtra. Maria de Lourdes Castellanos Canto</h3>
+
+        <div class="team-section">
+            <h2>Nuestro Equipo</h2>
+            <ul class="team-list">
+                <li>Cetzal Cetzal Astrit Airan</li>
+                <li>Chan Aké José Manuel</li>
+                <li>Celis Carrillo Roberto José</li>
+                <li>Herrera Jimenez Katya Rosalia</li>
+                <li>Semino Aleman Venus Getsemaní</li>
+                <li>Sarmiento Morales Oscar del Jesus</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

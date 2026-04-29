@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño y Elaboración</title>
+    <style>
+        :root { --azul-profundo: #0f172a; --azul-marino: #1e3a8a; --azul-medio: #3b82f6; --azul-claro: #dbeafe; --azul-hielo: #eff6ff; --blanco: #ffffff; }
+        body { font-family: 'Segoe UI', sans-serif; background-color: var(--azul-hielo); color: var(--azul-profundo); margin: 0; line-height: 1.6; }
+        nav { background-color: var(--azul-marino); padding: 15px 0; text-align: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: var(--blanco); text-decoration: none; margin: 0 15px; font-weight: 600; }
+        nav a:hover { color: var(--azul-claro); }
+        .container { max-width: 900px; margin: 40px auto; padding: 40px; background-color: var(--blanco); border-radius: 12px; border-top: 6px solid var(--azul-medio); box-shadow: 0 10px 15px rgba(0,0,0,0.05); }
+        h1, h2 { color: var(--azul-marino); text-align: center; margin-bottom: 30px; }
+        
+        /* Centrado de imágenes */
+        .img-center { display: block; margin: 0 auto 20px auto; max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        
+        /* Botón azul para Tinkercad */
+        .btn { background-color: var(--azul-medio); color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; transition: background 0.3s; }
+        .btn:hover { background-color: var(--azul-marino); }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Index.html">Inicio</a>
+        <a href="Descripcion del proyecto.html">Descripción</a>
+        <a href="Que es cuantrix.html">¿Qué es Cuantrix?</a>
+        <a href="Resultados y experiencias.html">Resultados</a>
+        <a href="Evidencias.html">Evidencias</a>
+    </nav>
+
+    <div class="container">
+        <h1>Diseño y Elaboración</h1>
+        
+        <h2>Maqueta Física</h2>
+        <a href="Evidencias.html">
+            <img src="images/maqueta.jpg" alt="Maqueta Física" class="img-center" style="width: 800px;">
+        </a>
+
+        <h2>Circuito Lógico</h2>
+        <img src="images/CIRCUITO.jpeg" alt="Circuito en Tinkercad" class="img-center">
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="https://www.tinkercad.com/things/kMoWYYSLt6M-copy-of-prototipo-distancias?sharecode=LDHNgUzRJIvopes2t_9QS4khck3uRK2ac901eSBiiHs" target="_blank" class="btn">
+                Ver Circuito Interactivo en Tinkercad
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
